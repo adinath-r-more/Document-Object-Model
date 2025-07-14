@@ -1,3 +1,7 @@
-alert("ADI MORE");
+let button = document.getElementById("myid");
+console.dir(button);
 
-console.log("hello!");
+let headings = document.getElementsByClassName("myclass");
+
+console.dir(headings);
+console.log(headings);
