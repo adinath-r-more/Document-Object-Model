@@ -1,7 +1,4 @@
-let button = document.getElementById("myid");
-console.dir(button);
+let h2 = document.querySelector("h2");
+console.dir(h2);
 
-let headings = document.getElementsByClassName("myclass");
-
-console.dir(headings);
-console.log(headings);
+h2.innerText = h2.innerText + "Adi More";
